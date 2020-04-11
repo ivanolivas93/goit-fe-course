@@ -1,7 +1,12 @@
-/* Main style git */
+/* Main style */
 
 html {
   box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 *,
@@ -27,6 +32,7 @@ img {
 .wrapper {
   width: 900px;
   margin: 0 auto;
+  padding-top: 77px;
 }
 
 /* Main menu */
@@ -36,7 +42,7 @@ img {
 }
 
 .main-nav {
-  padding: 77px 0 73px 0;
+  padding: 0;
   text-align: center;
   width: 907px;
   margin: 0 auto;

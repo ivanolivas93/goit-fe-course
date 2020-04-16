@@ -33,24 +33,6 @@ img {
   padding-bottom: 82px;
 }
 
-.visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
-  position: absolute;
-
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 /* <!-- MAIN MENU --> */
 
 .page-header {
@@ -66,6 +48,7 @@ input[type="radio"].visually-hidden {
   line-height: 32px;
   text-transform: uppercase;
   text-decoration: none;
+  margin: 0px;
 }
 
 .site-logo::first-letter {
@@ -156,6 +139,11 @@ input[type="radio"].visually-hidden {
   font-size: 18px;
   color: #ffffff;
   line-height: 32px;
+}
+
+.box-item-name a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .box-item-name {

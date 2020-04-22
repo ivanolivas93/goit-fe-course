@@ -91,7 +91,12 @@ img {
 
 .slider {
   min-height: 600px;
-  background-image: url("../img/slider.jpg");
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 2, 0.522),
+      rgba(50, 50, 50, 0.522)
+    ),
+    url("../img/slider-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -200,7 +205,6 @@ img {
   position: absolute;
   top: 80px;
   left: 94px;
-  background-color: rgb(26, 188, 156);
 }
 
 .icon-clock {
@@ -222,6 +226,18 @@ img {
 
 .new-collection-list-item:hover .overlay {
   opacity: 0.549;
+}
+
+.overlay img:hover {
+  opacity: 0.549;
+}
+
+.overlay img:nth-child(2):hover {
+  background-color: rgb(26, 188, 156);
+}
+
+.overlay img:last-child {
+  background-color: rgb(50, 50, 50);
 }
 
 .new-collection-list-item:nth-child(4n) {

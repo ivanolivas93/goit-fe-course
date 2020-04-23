@@ -129,16 +129,32 @@ img {
   transform: translate(-50%, -50%);
 }
 
-.arrow-right {
+.arrow-left {
+  width: 104px;
+  height: 104px;
   position: absolute;
-  top: 224px;
+  top: 256px;
   left: 244px;
+  background-color: #54a18f;
+  font-family: "Pe-icon-7-stroke", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 11px;
+  color: #ffffff;
 }
 
-.arrow-left {
+.arrow-right {
+  width: 104px;
+  height: 104px;
   position: absolute;
-  top: 230px;
+  top: 256px;
   right: 244px;
+  background-color: #1abc9c;
+  font-family: "Pe-icon-7-stroke", sans-serif;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 11px;
+  color: #ffffff;
 }
 
 /* <!-- SECTION NEW COLLECTION --> */
@@ -187,49 +203,128 @@ img {
   left: 10px;
   width: 234px;
   height: 302px;
-  background-color: rgb(0, 0, 0);
-  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.549);
+  display: none;
 }
 
 .icon-heart {
   width: 50px;
   height: 50px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  display: block;
   position: absolute;
   top: 80px;
   left: 34px;
+}
+
+.pe-7s-like {
+  width: 35px;
+  height: 35px;
+  font-family: "Pe-icon-7-stroke", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 10px;
 }
 
 .icon-arrows {
   width: 50px;
   height: 50px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  display: block;
   position: absolute;
   top: 80px;
   left: 94px;
 }
 
+.pe-7s-shuffle {
+  width: 35px;
+  height: 35px;
+  font-family: "Pe-icon-7-stroke", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
 .icon-clock {
   width: 50px;
   height: 50px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  display: block;
   position: absolute;
   top: 80px;
   right: 34px;
 }
 
+.pe-7s-clock {
+  width: 35px;
+  height: 35px;
+  font-family: "Pe-icon-7-stroke", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
 .icon-cart {
   width: 166px;
   height: 50px;
+  border: 1px solid #ffffff;
+  display: block;
+  background-color: #323232;
   position: absolute;
   top: 136px;
   left: 34px;
-  background-color: rgb(50, 50, 50);
+}
+
+.pe-7s-cart {
+  width: 35px;
+  height: 35px;
+  font-family: "Pe-icon-7-stroke", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 32px;
+  color: #ffffff;
+  margin: 10px 0 0 12px;
+}
+
+.text {
+  position: absolute;
+  top: 10px;
+  right: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 32px;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
 .new-collection-list-item:hover .overlay {
-  opacity: 0.549;
+  display: block;
 }
 
-.overlay img:hover {
-  opacity: 0.549;
+.icon-heart:hover {
+  background-color: #1abc9c;
+}
+
+.icon-arrows:hover {
+  background-color: #1abc9c;
+}
+
+.icon-clock:hover {
+  background-color: #1abc9c;
+}
+
+.icon-cart:hover {
+  background-color: #1abc9c;
 }
 
 .overlay img:nth-child(2):hover {

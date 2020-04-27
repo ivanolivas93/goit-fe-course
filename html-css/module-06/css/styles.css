@@ -68,20 +68,32 @@ nav {
   transition: color 200ms linear;
 }
 
-/* .site-navigation a:after {
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #f6a1a1;
+}
+
+.menu-item ::after {
   content: "";
-  display: none;
+  display: block;
   width: 50px;
   height: 3px;
   background-color: #f38181;
   margin: 0 auto;
   margin-top: 12px;
-} */
+  transition: 200ms linear;
+  opacity: 0;
+}
 
-.site-navigation a:hover,
-.site-navigation a:focus {
-  color: #f6a1a1;
-  /* display: block; */
+.menu-item:hover ::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #f38181;
+  margin: 0 auto;
+  margin-top: 12px;
+  opacity: 1;
 }
 
 /* SERVICE */

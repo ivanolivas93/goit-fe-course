@@ -396,11 +396,12 @@ footer {
   color: #fefefe;
   background-color: #323232;
   margin: 0 auto;
-  padding: 32px 0 26px 472px;
 }
 
 footer p {
   width: 412px;
+  margin: 0 auto;
+  padding: 32px 0 26px 0;
 }
 
 .colortext {

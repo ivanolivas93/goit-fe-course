@@ -24,7 +24,7 @@ img {
 .wrapper {
   width: 940px;
   margin: 0 auto;
-  padding: 36px 0 114px 0;
+  padding: 36px 0 118px 0;
 }
 
 /* FONTS */
@@ -110,10 +110,6 @@ nav {
 }
 
 /* SERVICES */
-
-.services {
-  margin-bottom: 118px;
-}
 
 .section-header-services {
   font-family: "Montserrat Bold", sans-serif;
@@ -227,7 +223,7 @@ nav {
 
 footer {
   margin: 0 auto;
-  padding: 110px 0 116px 0;
+  padding: 110px 0 114px 0;
   background-color: #222222;
 }
 
@@ -235,10 +231,10 @@ footer {
   background-image: url("../icons/Map Image.png");
   position: absolute;
   left: 790px;
-  top: 770px;
+  top: 790px;
   width: 614px;
   height: 537px;
-  opacity: 0.302;
+  opacity: 0.602;
 }
 
 .footer-header-contact-us {
@@ -270,12 +266,11 @@ footer {
   line-height: 18px;
   color: #bbbbbb;
   text-transform: uppercase;
-  padding: 18px 0 18px 0;
 }
 
 .inputs {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .forms {
@@ -287,6 +282,7 @@ input {
   width: 456px;
   height: 52px;
   margin: 0 30px 30px 0;
+  padding: 18px 0 18px 0;
   border: 0;
   border-style: solid;
   border-width: 1px;
@@ -299,6 +295,7 @@ input {
 textarea {
   width: 455px;
   height: 210px;
+  padding: 18px 0 18px 0;
   border-style: solid;
   border-width: 1px;
   border-color: rgb(204, 204, 204);
@@ -326,7 +323,8 @@ button {
   transition: color 0.2s linear;
 }
 
-button:hover {
+button:hover,
+button:focus {
   color: #5436fe;
 }
 

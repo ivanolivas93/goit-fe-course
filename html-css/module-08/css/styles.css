@@ -103,6 +103,7 @@ button:hover,
 button:focus {
   color: #365bfe;
   cursor: pointer;
+  outline: none;
 }
 
 .site-logo {
@@ -123,9 +124,10 @@ button:focus {
 .wrapper-background {
   background-image: url("../img/mobile/background.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center fixed;
   height: 540px;
   margin-bottom: 68px;
+  background-size: cover;
 }
 
 .section-header-promo {

@@ -141,6 +141,10 @@ button:focus {
   margin-bottom: 16px;
 }
 
+.wrapper-section-header {
+  padding: 0;
+}
+
 .promo-text {
   font-family: "Roboto", sans-serif;
   font-weight: 300;
@@ -159,7 +163,6 @@ button:focus {
   line-height: 18px;
   color: #ffffff;
   text-align: center;
-  margin: 0 20px;
   width: 280px;
   height: 40px;
   border-radius: 20px;
@@ -202,7 +205,7 @@ button:focus {
   background-color: rgb(251, 251, 251);
 }
 
-.partner:nth-child(1)::after {
+.partner-one::after {
   content: "";
   display: block;
   width: 37px;
@@ -220,7 +223,7 @@ button:focus {
   top: 86px;
 }
 
-.partner:nth-child(2)::after {
+.partner-two::after {
   content: "";
   display: block;
   width: 37px;
@@ -235,10 +238,10 @@ button:focus {
   background-position: center;
   position: absolute;
   left: 184px;
-  top: 318px;
+  top: 90px;
 }
 
-.partner:nth-child(3)::after {
+.partner-three::after {
   content: "";
   display: block;
   width: 37px;
@@ -253,10 +256,10 @@ button:focus {
   background-position: center;
   position: absolute;
   left: 184px;
-  top: 588px;
+  top: 88px;
 }
 
-.partner:nth-child(4)::after {
+.partner-four::after {
   content: "";
   display: block;
   width: 37px;
@@ -271,7 +274,7 @@ button:focus {
   background-position: center;
   position: absolute;
   left: 184px;
-  top: 818px;
+  top: 86px;
 }
 
 .name {
@@ -299,7 +302,6 @@ button:focus {
   font-size: 14px;
   line-height: 18px;
   color: #ff4e50;
-  margin: 0 20px;
   width: 284px;
   height: 44px;
   border-style: solid;

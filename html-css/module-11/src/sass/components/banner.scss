@@ -1,0 +1,33 @@
+.banner__text {
+  font-family: 'Kaushan Script', cursive;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 86px;
+  color: $white-color;
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.banner__header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 150px;
+  line-height: 140px;
+  color: $white-color;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.banner__button {
+  display: block;
+  padding: 0;
+  margin: 0 auto 230px auto;
+  text-align: center;
+  border-style: solid;
+  border-width: 3px;
+  border-color: $white-color;
+  background-color: #00000000;
+  width: 164px;
+  height: 44px;
+}

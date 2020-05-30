@@ -1,0 +1,14 @@
+.button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  color: $white-color;
+  text-transform: uppercase;
+
+  &:hover,
+  &:focus {
+    color: $hover-color;
+    cursor: pointer;
+  }
+}

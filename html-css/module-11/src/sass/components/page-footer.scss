@@ -1,0 +1,44 @@
+.page-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+  padding: 22px 0;
+}
+
+.footer__highlited-text {
+  color: $socials-hover-color;
+}
+
+.footer__form {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 24px;
+  color: #cccccc;
+  padding: 10px 0;
+}
+
+.footer__input {
+  height: 41px;
+  padding: 10px 0 10px 12px;
+  border-right: none;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e7e7e7;
+  background-color: $white-color;
+}
+
+.footer__button {
+  background-color: #95e1d3;
+  padding: 12px 32px;
+  border: none;
+  -webkit-transition: color 200ms linear;
+  -o-transition: color 200ms linear;
+  transition: color 200ms linear;
+}

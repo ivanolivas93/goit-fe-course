@@ -1,0 +1,26 @@
+@import './helpers/variables.scss';
+@import './normalize.scss';
+@import './base.scss';
+
+// COMPONENTS
+
+@import './components/link.scss';
+@import './components/list.scss';
+@import './components/section__main-header.scss';
+@import './components/secondary-header.scss';
+@import './components/text-description.scss';
+@import './components/item-icons.scss';
+@import './components/socials.scss';
+@import './components/socials-icons.scss';
+@import './components/button.scss';
+@import './components/wrapper-background.scss';
+@import './components/wrapper.scss';
+@import './components/page-header.scss';
+@import './components/page-nav.scss';
+@import './components/site-logo.scss';
+@import './components/site-navigation.scss';
+@import './components/banner.scss';
+@import './components/service.scss';
+@import './components/our-team.scss';
+@import './components/social-networks.scss';
+@import './components/page-footer.scss';

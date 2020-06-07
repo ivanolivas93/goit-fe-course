@@ -1,0 +1,22 @@
+@mixin icons($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin pseudo-after(
+  $content: '',
+  $display: block,
+  $width,
+  $height,
+  $background-color,
+  $margin: 0 auto,
+  $margin-top
+) {
+  content: $content;
+  display: $block;
+  width: $width;
+  height: $height;
+  background-color: $background-color;
+  margin: $margin;
+  margin-top: $margin-top;
+}

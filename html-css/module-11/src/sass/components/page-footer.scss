@@ -8,6 +8,7 @@
 }
 
 .footer__copyright {
+  @extend %text-name;
   padding: 22px 0;
 }
 
@@ -35,6 +36,7 @@
 }
 
 .footer__button {
+  @extend %button;
   background-color: #95e1d3;
   padding: 12px 32px;
   border: none;

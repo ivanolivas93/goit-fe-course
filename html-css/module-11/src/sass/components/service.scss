@@ -3,20 +3,21 @@
 }
 
 .service__secondary-header {
+  @extend %secondary-header;
   margin-bottom: 64px;
 }
 
 .service__secondary-header:after {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 4px;
-  background-color: $socials-hover-color;
-  margin: 0 auto;
-  margin-top: 40px;
+  @include pseudo-after(
+    $width: 60px,
+    $height: 4px,
+    $background-color: $socials-hover-color,
+    $margin-top: 40px
+  );
 }
 
 .service__list {
+  @extend %list;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
@@ -39,26 +40,32 @@
 }
 
 .service__item--alarm {
+  @extend %item-icons;
   background-image: url('../images/icons/icon-1.png');
 }
 
 .service__item--line-graph {
+  @extend %item-icons;
   background-image: url('../images/icons/icon-2.png');
 }
 
 .service__item--computer {
+  @extend %item-icons;
   background-image: url('../images/icons/icon-3.png');
 }
 
 .service__item--book {
+  @extend %item-icons;
   background-image: url('../images/icons/icon-4.png');
 }
 
 .service__item--home {
+  @extend %item-icons;
   background-image: url('../images/icons/icon-5.png');
 }
 
 .service__item--image {
+  @extend %item-icons;
   background-image: url('../images/icons/icon-6.png');
 }
 
@@ -67,9 +74,11 @@
 }
 
 .service__item--header {
+  @extend %text-name;
   text-transform: uppercase;
 }
 
 .service__item--description {
+  @extend %text-description;
   font-weight: 400;
 }

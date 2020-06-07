@@ -1,4 +1,5 @@
 .site-navigation {
+  @extend %list;
   -ms-flex-preferred-size: 488px;
   flex-basis: 488px;
   -webkit-box-flex: 0;
@@ -9,6 +10,7 @@
 }
 
 .site-navigation__link {
+  @extend %link;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 14px;

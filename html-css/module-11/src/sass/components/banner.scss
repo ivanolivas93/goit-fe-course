@@ -20,6 +20,7 @@
 }
 
 .banner__button {
+  @extend %button;
   display: block;
   padding: 0;
   margin: 0 auto 230px auto;

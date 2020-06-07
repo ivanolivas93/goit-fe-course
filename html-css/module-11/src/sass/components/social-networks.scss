@@ -1,35 +1,39 @@
 .social-networks__facebook {
+  @extend %socials;
   left: 78px;
 
   &-icon {
-    width: 13px;
-    height: 26px;
+    @extend %socials-icons;
+    @include icons(13px, 26px);
   }
 }
 
 .social-networks__twitter {
+  @extend %socials;
   left: 135px;
 
   &-icon {
-    width: 26px;
-    height: 22px;
+    @extend %socials-icons;
+    @include icons(26px, 22px);
   }
 }
 
 .social-networks__pinterest {
+  @extend %socials;
   left: 192px;
 
   &-icon {
-    width: 21px;
-    height: 26px;
+    @extend %socials-icons;
+    @include icons(21px, 26px);
   }
 }
 
 .social-networks__instagram {
+  @extend %socials;
   left: 249px;
 
   &-icon {
-    width: 26px;
-    height: 26px;
+    @extend %socials-icons;
+    @include icons(26px, 26px);
   }
 }

@@ -1,35 +1,36 @@
 .our-team {
   &::after {
-    content: '';
-    display: block;
-    width: 1200px;
-    height: 1px;
-    background-color: #e5e5e5;
-    margin: 0 auto;
-    margin-top: 78px;
+    @include pseudo-after(
+      $width: 1200px,
+      $height: 1px,
+      $background-color: #e5e5e5,
+      $margin-top: 78px
+    );
   }
 
   &__secondary-header {
+    @extend %secondary-header;
     margin-bottom: 42px;
 
     &:after {
-      content: '';
-      display: block;
-      width: 60px;
-      height: 4px;
-      background-color: $socials-hover-color;
-      margin: 0 auto;
-      margin-top: 40px;
+      @include pseudo-after(
+        $width: 60px,
+        $height: 4px,
+        $background-color: $socials-hover-color,
+        $margin-top: 40px
+      );
     }
   }
 
   &__description {
+    @extend %text-description;
     font-weight: 400;
     text-align: center;
     margin-bottom: 90px;
   }
 
   &__list {
+    @extend %list;
     position: relative;
   }
 
@@ -69,6 +70,7 @@
   }
 
   &__social-networks {
+    @extend %list;
     position: relative;
   }
 
@@ -77,12 +79,14 @@
   }
 
   &__name {
+    @extend %text-name;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 10px;
   }
 
   &__position {
+    @extend %text-description;
     font-weight: 300;
     text-align: center;
   }
